@@ -1,3 +1,11 @@
 Things that I need to do with the templates:
     1. Need to either edit or remove the daft punk page
     2. Need to add the songs that I like to the misc page
+    3. I need to figure out how to move sidebar.css to the directory which it belongs which is static
+	> I will probably have to go to w3schools.com to figure out how, but I can do that later
+    4. Will have to manually hard code @app.route for every href
+	> For some reason, I cannot get the class definitions to do what
+	  what I want them to do
+	> I believe the error is that I am going the wrong way when
+	  it comes to specifying the url that I want to refer back to
+	> My planned course of action to fix this is to watch some online videos
