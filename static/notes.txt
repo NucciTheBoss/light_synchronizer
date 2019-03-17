@@ -1,0 +1,6 @@
+This is the file where the css stylesheets will be stored
+   > They should then be called by the html sheets when the page
+     is loaded in the browser
+
+I am having some trouble trying to get my sidebar ti load but I believe
+that this will be fixed by putting the sidebar.css file into the static folder
