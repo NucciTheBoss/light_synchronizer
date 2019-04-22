@@ -62,7 +62,7 @@ def absolute_bop_song2():
 
 @app.route('/i_like_to_move_it')
 def absolute_bop_song3():
-    systemCommand("absolute_bops", "i_like_to_move_it'")
+    systemCommand("absolute_bops", "i_like_to_move_it")
     return render_template('absolute_bops.html')
 
 @app.route('/live_your_life')
@@ -76,7 +76,7 @@ def absolute_bop_song5():
     return render_template('absolute_bops.html')
 
 @app.route('/moksha')
-def absolute_bop_song12():
+def absolute_bop_song15():
     systemCommand("absolute_bops", "moksha")
     return render_template('absolute_bops.html')
 
