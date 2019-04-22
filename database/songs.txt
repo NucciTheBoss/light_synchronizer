@@ -1,0 +1,55 @@
+File is a copy of all the songs that I have store
+in my web app folder in my laptop
+
+Just a list of songs and the directories to find them in
+
+Directory, Song Name
+Absolute Bops playlist
+1. absolute_bops, durga
+2. absolute_bops, everything
+3. absolute_bops, festival_of_lights
+4. absolute_bops, freaks
+5. absolute_bops, harder_better_faster_stronger_bass_boosted
+6. absolute_bops, i_like_to_move_it
+7. absolute_bops, live_your_life
+8. absolute_bops, melody
+9. absolute_bops, moksha
+10. absolute_bops, neverland
+11. absolute_bops, party_till_we_die
+12. absolute_bops, psy_or_die
+13. absolute_bops, punjabi
+14. absolute_bops, strong
+15. absolute_bops, this_is_nightlife_remix
+
+Ariana Grande playlist
+1. ariana_grande, bang_bang
+2. ariana_grande, breathin
+3. ariana_grande, into_you
+4. ariana_grande, no_more_tears_left_to_cry
+5. ariana_grande, one_last_time
+6. ariana_grande, problem
+7. ariana_grande, side_to_side
+
+Britney Spears playlist
+1. britney_spears, baby_one_more_time
+2. britney_spears, circus
+3. britney_spears, gimme_more
+4. britney_spears, hold_it_against_me
+5. britney_spears, i_wanna_go
+6. britney_spears, if_u_seek_amy
+7. britney_spears, oops_i_did_it_again
+8. britney_spears, three
+9. britney_spears, till_the_world_ends
+10. britney_spears, toxic
+11. britney_spears, womanizer
+12. britney_spears, work_bitch_remix
+
+Cascada playlist songs
+1. cascada, bad_boy
+2. cascada, dangerous
+3. cascada, evacuate_the_dancefloor
+4. cascada, everytime_we_touch
+5. cascada, miracle
+6. cascada, ready_or_not
+
+# Songs as of currently, will probably add some more later
