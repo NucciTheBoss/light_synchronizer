@@ -7,54 +7,53 @@
     <meta name="description" content="Web App v1">
     <meta name="author" content="Jason C. Nucciarone">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <!-- stylesheet for sidebar -->
     <link rel = "stylesheet" type = "text/css" href = "{{ url_for('static',filename='styles/sidebar.css') }}">
 </head>
-<body>    
+<body>
     <div class = "w3-display-container">
         <!-- Sidebar -->
         <div class = "fixedbar">  <!-- The icon to open the sidebar will be fixed to the top of the screen -->
             <div id = "sidebar" class= "sidenavbar">
                 <a href = "javascript:void(0)" class = "closebutton"
                     onclick = "closeNav()">&times;</a>
-                    
-                <a href='/home'>Home</a>    
-                <a href='/ariana_grande'>Ariana Grande</a>
-                <a href='/britney_spears'>Britney Spears</a>
-                <a href='/cascada'>Cascada</a>
-                <a href='/demi_lovato'>Demi Lovato</a>
-                <a href='/daft_punk'>Daft Punk</a>
-                <a href='/misc'>Miscellaneous</a>
+
+                    <a href='/home'>Home</a>
+                    <a href='/ariana_grande'>Ariana Grande</a>
+                    <a href='/britney_spears'>Britney Spears</a>
+                    <a href='/cascada'>Cascada</a>
+                    <a href='/demi_lovato'>Absolute Bops</a>
+                    <a href='/misc'>Miscellaneous</a>
             </div>
             <span id="opensidebar" style = "font-size:30px;cursor:pointer" onclick = "openNav()">
                 &#9776;
             </span>
         </div>
-        
+
         <div class = "w3-display-topmiddle" id = "main">
             <div class = "w3-bar-block">
                 <a class = "w3-button w3-round w3-xlarge
                             w3-red w3-bar-item w3-margin w3-center" href = "/bad_boy">
                 Bad Boy</a>
-            
+
                 <a class = "w3-button w3-round w3-xlarge
                             w3-red w3-bar-item w3-margin w3-center" href = "/dangerous">
                 Dangerous</a>
-                
+
                 <a class = "w3-button w3-round w3-xlarge
                             w3-red w3-bar-item w3-margin w3-center" href = "/evacuate_the_dancefloor">
                 Evacuate the Dancefloor</a>
-                
+
                 <a class = "w3-button w3-round w3-xlarge
                             w3-red w3-bar-item w3-margin w3-center" href = "/everytime_we_touch">
                 Everytime we touch</a>
-                
+
                 <a class = "w3-button w3-round w3-xlarge
                             w3-red w3-bar-item w3-margin w3-center" href = "/miracle">
                 Miracle</a>
-                
+
                 <a class = "w3-button w3-round w3-xlarge
                             w3-red w3-bar-item w3-margin w3-center" href = "/ready_or_not">
                 Ready or Not</a>
@@ -66,7 +65,7 @@
         function openNav(){
             document.getElementById("sidebar").style.width = "100%";
         }
-        
+
         function closeNav(){
             document.getElementById("sidebar").style.width = "0";
         }

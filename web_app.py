@@ -30,6 +30,87 @@ def return_home_page():
     return render_template('home.html')
 
 ###
+@app.route('/absolute_bops')
+def absolute_bop_page():  # Absolute bop song page, music that I listen to when I want to bop
+    return render_template('absolute_bops.html')
+
+# Song commands for absolute bops (my hardcore dance music)
+@app.route('/durga')
+def absolute_bop_song12():
+    systemCommand("absolute_bops", "durga")
+    return render_template('absolute_bops.html')
+
+@app.route('/everything')
+def absolute_bop_song13():
+    systemCommand("absolute_bops", "everything")
+    return render_template('absolute_bops.html')
+
+@app.route('/festival_of_lights')
+def absolute_bop_song14():
+    systemCommand("absolute_bops", "festival_of_lights")
+    return render_template('absolute_bops.html')
+
+@app.route('/freaks')
+def absolute_bop_song1():
+    systemCommand("absolute_bops", "freaks")
+    return render_template('absolute_bops.html')
+
+@app.route('/harder_better_faster_stronger_bass_boosted')
+def absolute_bop_song2():
+    systemCommand("absolute_bops", "harder_better_faster_stronger_bass_boosted")
+    return render_template('absolute_bops.html')
+
+@app.route('/i_like_to_move_it')
+def absolute_bop_song3():
+    systemCommand("absolute_bops", "i_like_to_move_it'")
+    return render_template('absolute_bops.html')
+
+@app.route('/live_your_life')
+def absolute_bop_song4():
+    systemCommand("absolute_bops", "live_your_life")
+    return render_template('absolute_bops.html')
+
+@app.route('/melody')
+def absolute_bop_song5():
+    systemCommand("absolute_bops", "melody")
+    return render_template('absolute_bops.html')
+
+@app.route('/moksha')
+def absolute_bop_song12():
+    systemCommand("absolute_bops", "moksha")
+    return render_template('absolute_bops.html')
+
+@app.route('/neverland')
+def absolute_bop_song6():
+    systemCommand("absolute_bops", "neverland")
+    return render_template('absolute_bops.html')
+
+@app.route('/party_till_we_die')
+def absolute_bop_song7():
+    systemCommand("absolute_bops", "party_till_we_die")
+    return render_template('absolute_bops.html')
+
+@app.route('/psy_or_die')
+def absolute_bop_song8():
+    systemCommand("absolute_bops", "psy_or_die")
+    return render_template('absolute_bops.html')
+
+@app.route('/punjabi')
+def absolute_bop_song9():
+    systemCommand("absolute_bops", "punjabi")
+    return render_template('absolute_bops.html')
+
+@app.route('/strong')
+def absolute_bop_song10():
+    systemCommand("absolute_bops", "strong")
+    return render_template('absolute_bops.html')
+
+@app.route('/this_is_nightlife_remix')
+def absolute_bop_song11():
+    systemCommand("absolute_bops", "this_is_nightlife_remix")
+    return render_template('absolute_bops.html')
+
+###
 @app.route('/ariana_grande')  # ariana song page
 def ariana_page():
     return render_template('ariana_grande.html')
@@ -177,7 +258,5 @@ if __name__ == '__main__':
     try:
         app.run(host='0.0.0.0', port='5000', debug=True)
     except KeyboardInterrupt:
-        os.system("fuser -k 5000/tcp")  # Clean up port
+        os.system("sudo fuser -k 5000/tcp")  # Clean up port
         app.exit()
-    
-
