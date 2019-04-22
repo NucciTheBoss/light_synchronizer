@@ -133,7 +133,7 @@ def ariana_song3():
 
 @app.route('/no_more_tears_left_to_cry')
 def ariana_song4():
-    systemCommand("ariana_grande", "no_more_tears_left_to cry")
+    systemCommand("ariana_grande", "no_more_tears_left_to_cry")
     return render_template("ariana_grande.html")
 
 @app.route('/one_last_time')
